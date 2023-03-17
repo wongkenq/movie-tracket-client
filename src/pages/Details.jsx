@@ -109,7 +109,7 @@ const Details = () => {
       try {
         const accessToken = await getAccessTokenSilently({
           authorizationParams: {
-            audience: api,
+            audience: 'http://localhost:9000',
             // scope: 'read:users',
           },
         });
@@ -119,7 +119,7 @@ const Details = () => {
         console.log(error.message);
         const accessToken = await getAccessTokenWithPopup({
           authorizationParams: {
-            audience: api,
+            audience: 'http://localhost:9000',
             // scope: 'read:users',
           },
         });

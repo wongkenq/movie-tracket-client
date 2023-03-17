@@ -20,9 +20,9 @@ const Home = () => {
             </h1>
 
             <p className="mt-3 text-gray-600 dark:text-gray-400">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro
-              beatae error laborum ab amet sunt recusandae? Reiciendis natus
-              perspiciatis optio.
+              Welcome to MeMovie, the ultimate destination for all movie lovers!
+              Our website is designed to provide you with an easy and convenient
+              way to keep track of all the latest movie releases, and more.
             </p>
 
             <button
