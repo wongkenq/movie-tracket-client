@@ -11,7 +11,9 @@ const Movies = () => {
 
   useEffect(() => {
     axios
-      .get(`${api}/?api_key=${apiKey}`)
+      .get(
+        `https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=en-US&page=1`
+      )
       .then((res) => setMovies(res.data.results));
   }, []);
 
