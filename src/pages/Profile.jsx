@@ -109,9 +109,6 @@ const Profile = () => {
               </div>
             </div>
           </div>
-          <div className="container">
-            <p>{token}</p>
-          </div>
         </div>
       )
     );

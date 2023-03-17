@@ -27,7 +27,7 @@ const Movies = () => {
 
   return (
     <div className="bg-white dark:bg-gray-900 max-w-xxl grow">
-      <h1>Popular Movies</h1>
+      {/* <h1>Popular Movies</h1> */}
       <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-3 lg:gap-5 py-4 px-4 justify-center lg:max-w-[1024px] lg:mx-auto">
         {movies?.map((movie) => (
           <MovieCard key={movie.id} movie={movie} />
